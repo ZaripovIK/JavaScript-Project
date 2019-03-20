@@ -1,0 +1,287 @@
+body {
+    background: #f8f8f8;
+    font-family: "Book Antiqua" , serif;
+    font-style: normal;
+    font-size: 20px ;
+    color: rgb(83, 83, 83);
+}
+
+input {
+    font-size: 20px ;
+    color: midnightblue;
+}
+
+fieldset {
+    font-style: normal;
+    font-size: 22px ;
+    color: #6100a1;
+}
+
+a:hover {
+    color: #e9be5a;
+}
+
+.main-menu {
+    list-style-type: none;
+    float: right;
+    margin-right: 15px;
+}
+
+.main-menu li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.store-name {
+    position: absolute;
+    top: 51px;
+    left: 144px;
+    font-size: 20px;
+}
+
+.cart {
+    margin-left: 400px;
+    font-size: 18px;
+    color: darkslategrey;
+}
+
+.product-imgAndDesc {
+    width: 100%;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.product-imgWrap {
+    width: 50%;
+    margin-right: 2%;
+    float: left;
+}
+
+.product-img {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #274E7D;
+}
+
+.product-shortDescWrap {
+    width: 82%;
+    float: left;
+}
+
+.product-shortDescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product-header {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+    width: 100%;
+}
+
+.product-shortDescHeader {
+    margin-top: 0;
+}
+
+.product-buyBtn {
+    display: block;
+    float: left;
+    padding: 15px 15px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #274E7D;
+    font-weight: bold;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+    background: -moz-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+}
+
+.product-buyBtn:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5cea6+0,c9c190+40,b7ad70+100;Brown+3D */
+    background: #d5cea6; /* Old browsers */
+    background: -moz-linear-gradient(top, #d5cea6 0%, #c9c190 40%, #b7ad70 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d5cea6 0%,#c9c190 40%,#b7ad70 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d5cea6 0%,#c9c190 40%,#b7ad70 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=0 ); /* IE6-9 */
+}
+
+.product-buyBtn:active {
+    color: #528426;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+50,3690f0+51,1e69de+100;Blue+Gloss+%233 */
+    background: #6db3f2; /* Old browsers */
+    background: -moz-linear-gradient(top, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+}
+
+.product-deleteBtn {
+    display: block;
+    float: right;
+    padding: 15px 9px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #274E7D;
+    font-weight: bold;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,6199c7+50,3a84c3+51,419ad6+59,4bb8f0+71,3a8bc2+84,26558b+100;Blue+Gloss */
+    background: #cedbe9; /* Old browsers */
+    background: -moz-linear-gradient(top, #cedbe9 0%, #aac5de 17%, #6199c7 50%, #3a84c3 51%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 17%,#6199c7 50%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+}
+
+.product-deleteBtn:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+    background: #d0e4f7; /* Old browsers */
+    background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
+}
+
+.product-fullDescription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product-shortDescription:first-letter,
+.product-fullDescription:first-letter {
+    color: #274E7D;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.product-features {
+    color: #274E7D;
+    font-size: 20px;
+    font-style: italic;
+    border-collapse: collapse;
+}
+
+.product-features td {
+    border: 1px solid black;
+}
+
+.product-features strong {
+    font-style: normal;
+}
+
+.catalog-img {
+    width: 100%;
+}
+
+.catalog-productsWrap {
+    width: 100%;
+    float: left;
+}
+
+.catalog-productUnit {
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 35px;
+    outline: 1px solid #ccc;
+
+}
+
+.catalog-productUnit:nth-child(4n) {
+    margin-right: 0;
+}
+
+.catalog-productUnitImg {
+    height: 150px;
+}
+
+.catalog-productUnitMore {
+    display: flex;
+    margin: auto;
+    align-content: center;
+}
+
+input:focus {
+    background: chartreuse;
+}
+
+input {
+    text-transform: capitalize;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 2px solid black;
+}
+
+.table_tovar {
+    color: darkblue;
+    font-size: 17px;
+    font-size-adjust: inherit;
+    line-height: 18px;
+    float: left;
+}
+
+#carImg{
+    border: 2px solid #000;
+}
+
+#carImg:hover {
+    border-color: transparent;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.header {
+    height: 150px;
+    position: relative;
+    background: url('../images/header_Mineral_Grey_BMW_M4.jpg') no-repeat 100%;
+}
+
+.main {
+    height: 260px;
+    background-color: rgba(156, 197, 251, 0.34);
+}
+
+.footer {
+    background: rgba(39, 78, 125, 0.46);
+    height: 100px;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px 10px 0 0;
+    box-sizing: border-box;
+    clear: both;
+}
+
+#menu {
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+
+.main_tovar{
+    height: 850px;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
